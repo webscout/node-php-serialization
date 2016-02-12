@@ -30,7 +30,8 @@
             },
             set:function(v) {
                 this.__attr__[name].set(v);
-            }
+            },
+            configurable: true
         });
     };
     Class.prototype.__typeOf__=function(name) {
